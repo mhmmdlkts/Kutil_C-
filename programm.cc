@@ -5,12 +5,11 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    string geordnetPath = "geordnet.dat";
-    char *teilPath = argv[1];
-    char *schrittPath = argv[2];
+    //char *geordnetPath = "geordnet.dat";
+    char *teilPath = /*"teil.dat"*/argv[1];
+    char *schrittPath = /*"schritt.dat"*/argv[2];
 
     TeilList tl (teilPath);
 
     return 0;
 }
-
