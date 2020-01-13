@@ -2,7 +2,7 @@ CXXFLAGS=-MMD -MP -Wall
 CC=$(CXX)
 
 PROGRAMS=programm
-OBJECTS=teil.o
+OBJECTS=teil.o utility.o
 
 ALLOBJECTS=$(OBJECTS) $(patsubst %,%.o,$(PROGRAMS))
 
